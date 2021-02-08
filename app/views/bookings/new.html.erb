@@ -1,13 +1,23 @@
-<div>
-  <h1>Booking Form</h1>
-</div>
-  <div class="bookings">
-    <%= simple_form_for(@booking) do |f| %>
-    <%= f.input :name %>
-    <%= f.input :number_of_boxes %>
-    <%= f.input :address %>
-    <%= f.input :dietary_requirements, as: :text %>
-    <%= f.input :telephone_number %>
-    <%= f.submit "Request Boxes", class: "btn btn-info btn-block" %>
-    <% end %>
+<div class="booking-form">
+  <div class="booking-title">
+    <h1>Booking Form</h1>
   </div>
+  <div class="swish-info">
+      <p>Once you have requested the boxes below, you will get a text back within 24 hours so you can Swish payment and add any further information if needed</p>
+  </div>
+    <div class="bookings">
+      <%= simple_form_for(@booking) do |f| %>
+      <%= f.input :name %>
+      <%= f.input :number_of_boxes %>
+      <%= f.input :address %>
+      <%= f.input :dietary_requirements, as: :text %>
+      <%= f.input :telephone_number %>
+      <%= f.submit "Request Boxes", class: "btn btn-primary btn-lg" %>
+      <% end %>
+    </div>
+  <div class="back" >
+     <%= link_to root_path do %>
+     <i class="fas fa-long-arrow-alt-left"></i> Back
+     <% end %>
+  </div>
+</div>

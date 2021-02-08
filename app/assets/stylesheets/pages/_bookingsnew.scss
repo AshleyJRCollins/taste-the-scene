@@ -1,0 +1,61 @@
+.booking-form {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.booking-title {
+
+  padding: 20px 0px 0px 50px;
+
+  h1 {
+    font-size: 100px;
+  }
+
+}
+
+.bookings {
+  padding: 0px 50px 0px 50px;
+
+  .btn-primary {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: white 1px solid;
+  }
+
+  .btn-primary:hover {
+    background-color: black;
+    color: white;
+  }
+
+}
+
+.swish-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.back {
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  padding: 20px 0px 0px 50px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+}
+
