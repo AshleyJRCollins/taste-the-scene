@@ -1,4 +1,13 @@
 <div>
-  <h1>Confirmation of booking</h1>
-  <h2>You will get a text within 2 hours so you can Swish payment and add any further information if needed.</h2>
+  <h1>Booking Form</h1>
 </div>
+  <div class="bookings">
+    <%= simple_form_for(@booking) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :number_of_boxes %>
+    <%= f.input :address %>
+    <%= f.input :dietary_requirements, as: :text %>
+    <%= f.input :telephone_number %>
+    <%= f.submit "Request Boxes", class: "btn btn-info btn-block" %>
+    <% end %>
+  </div>
