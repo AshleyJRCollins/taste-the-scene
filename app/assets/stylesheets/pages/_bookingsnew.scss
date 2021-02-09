@@ -1,7 +1,7 @@
 .booking-form {
   background-color: black;
   color: white;
-  height: 100vh;
+  height: 93vh;
   background-size: 100% 100%;
 }
 
@@ -42,20 +42,5 @@
   overflow: auto;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.back {
-  position: absolute;
-  bottom: 20px;
-  font-size: 20px;
-  padding: 20px 0px 0px 50px;
-  a {
-    color: white;
-    text-decoration: none;
-  }
-
-  a:hover {
-    opacity: 0.8;
-  }
 }
 

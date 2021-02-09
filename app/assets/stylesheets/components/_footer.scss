@@ -1,0 +1,37 @@
+.footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0px 50px;
+  color: white;
+  border-top: white solid 1px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 0.8;
+}
+
+.footer-copyright a {
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+
+  h5 {
+    margin: 0px;
+  }
+}
+
+.footer-copyright h5:hover {
+    opacity: 0.8;
+}
