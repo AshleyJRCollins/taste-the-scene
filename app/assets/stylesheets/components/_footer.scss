@@ -3,10 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 100px;
   padding: 0px 50px;
   color: white;
-  border-top: white solid 1px;
 }
 .footer-links {
   display: flex;
@@ -25,16 +24,17 @@
   margin: 0px 0px 0px 10px;
 }
 
-.footer-copyright a {
+.email a {
   margin: 0px;
   color: white;
   text-decoration: none;
-
-  h5 {
-    margin: 0px;
-  }
 }
 
-.footer-copyright h5:hover {
+.email a:hover {
     opacity: 0.8;
+}
+
+#footer-title h5 {
+  margin: 0px;
+  padding-left: 70px;
 }
