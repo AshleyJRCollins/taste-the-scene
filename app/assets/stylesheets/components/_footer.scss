@@ -7,24 +7,29 @@
   padding: 0px 30px;
   color: white;
 }
+
 .footer-links {
   display: flex;
   align-items: center;
 }
+
 .footer-links a {
   color: white;
   text-decoration: none;
   font-size: 150%;
   padding: 0px 10px;
 }
+
 .footer-links a:hover {
   opacity: 0.8;
 }
+
 .email a {
   margin: 0px;
   color: white;
   text-decoration: none;
 }
+
 .email a:hover {
     opacity: 0.8;
 }
