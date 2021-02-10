@@ -6,13 +6,18 @@
       <p>Once you have requested the boxes below, you will get a text back within 24 hours so you can Swish payment and add any further information if needed</p>
   </div>
     <div class="bookings">
-      <%= simple_form_for(@booking) do |f| %>
+      <%= simple_form_for(@order) do |f| %>
       <%= f.input :name %>
+      <%= f.input :option %>
       <%= f.input :number_of_boxes %>
       <%= f.input :address %>
-      <%= f.input :dietary_requirements, as: :text %>
       <%= f.input :telephone_number %>
-      <%= f.submit "Request Boxes", class: "btn btn-primary btn-lg" %>
+      <%= f.input :email %>
+      <%= f.input :dietary_requirements, as: :text %>
+      <%= f.submit "Order Boxes", class: "btn btn-primary btn-lg" %>
       <% end %>
+    </div>
+    <div class="back-button">
+      <%=link_to "Back to the... home page", root_path, class: "btn btn-outline-primary btn-lg" %>
     </div>
 </div>

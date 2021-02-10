@@ -1,7 +1,6 @@
 .booking-form {
   background-color: black;
   color: white;
-  height: 93vh;
   background-size: 100% 100%;
 }
 
@@ -30,7 +29,26 @@
     background-color: black;
     color: white;
   }
+}
 
+.back-button {
+
+
+  .btn-outline-primary {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: white 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    margin: 50px;
+  }
+
+  .btn-outline-primary:hover {
+    color: black;
+    background-color: white;
+  }
 }
 
 .swish-info {
