@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
+  height: 10vh;
+  padding: 0px 30px;
   color: white;
 }
 .footer-links {
@@ -14,27 +14,17 @@
 .footer-links a {
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 150%;
   padding: 0px 10px;
 }
 .footer-links a:hover {
   opacity: 0.8;
 }
-.footer-links p {
-  margin: 0px 0px 0px 10px;
-}
-
 .email a {
   margin: 0px;
   color: white;
   text-decoration: none;
 }
-
 .email a:hover {
     opacity: 0.8;
-}
-
-#footer-title h5 {
-  margin: 0px;
-  padding-left: 70px;
 }

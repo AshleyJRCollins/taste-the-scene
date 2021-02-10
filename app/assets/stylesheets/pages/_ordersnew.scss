@@ -5,13 +5,11 @@
 }
 
 .booking-title {
-
   padding: 20px 0px 0px 50px;
 
   h1 {
-    font-size: 100px;
+    font-size: 500%;
   }
-
 }
 
 .bookings {
@@ -32,7 +30,6 @@
 }
 
 .back-button {
-
 
   .btn-outline-primary {
     padding: 10px;
@@ -60,5 +57,6 @@
   overflow: auto;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 0px 50px;
 }
 
