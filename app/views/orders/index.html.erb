@@ -19,14 +19,11 @@
           <p><%= order.email %></p>
         <h5>Dietary requirements:</h5>
           <p><%= order.dietary_requirements %></p>
-    <div class="delete">
-      <%= link_to "Remove booking",
-            orders_path(@order),
-            method: :delete,
-            data: { confirm: "Are you sure?" }, class: "btn btn-primary" %>
-    </div>
-  </div>
-  <% end %>
+            <div class="delete">
+              <%= link_to "Remove booking", orders_path(@orders), class: "btn btn-primary" %>
+            </div>
+        </div>
+    <% end %>
   </div>
   <div class="home-button">
     <h3><%=link_to "Back to the... home page", root_path, class: "btn btn-outline-primary btn-lg" %></h3>
