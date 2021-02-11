@@ -8,8 +8,51 @@
 }
 
 .list-title {
-  padding: 30px;
+  padding: 20px 50px 0px 50px;
 }
 
-.list {
+.list-info {
+  margin: 20px 40px;
+  padding: 20px;
+  border: black 2px solid;
+  border-radius: 20px;
+  position: relative;
+}
+
+.delete {
+  padding: 10px;
+
+  .btn-primary {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #e71d36;
+    border: #e71d36 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+  }
+
+  .btn-primary:hover {
+    background-color: black;
+    border: black 1px solid;
+  }
+}
+
+.home-button {
+  padding: 20px 40px;
+
+  .btn-outline-primary {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: black 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .btn-outline-primary:hover {
+    opacity: 0.5;
+  }
 }
