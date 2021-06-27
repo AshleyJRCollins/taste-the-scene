@@ -1,6 +1,6 @@
 .booking-form {
-  background-color: black;
-  color: white;
+  //background-color: black;
+  color: black;
   background-size: 100% 100%;
 }
 
@@ -15,37 +15,47 @@
 .bookings {
   padding: 0px 50px 0px 50px;
 
-  .btn-primary {
-    background-color: white;
-    color: black;
-    padding: 20px;
-    border-radius: 10px;
-    border: white 1px solid;
-  }
+  //.btn-primary {
+    //background-color: white;
+    //color: black;
+    //padding: 20px;
+    //border-radius: 10px;
+    //border: white 1px solid;
+  //}
 
-  .btn-primary:hover {
-    background-color: black;
-    color: white;
-  }
+  //.btn-primary:hover {
+    //background-color: black;
+    //color: white;
+  //}
 }
 
 .back-button {
 
-  .btn-outline-primary {
-    padding: 10px;
-    border-radius: 10px;
-    color: white;
-    background-color: black;
-    border: white 1px solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    font-size: 15px;
-    margin: 50px;
-  }
+  .btn-link {
+  color: black;
+  font-size: 2vw;
+  padding: 20px 50px;
+}
 
-  .btn-outline-primary:hover {
-    color: black;
-    background-color: white;
-  }
+.btn-link:hover {
+    color: white;
+    text-decoration: none;
+}
+  //.btn-outline-primary {
+    //padding: 10px;
+    //border-radius: 10px;
+    //color: white;
+    //background-color: black;
+    //border: white 1px solid;
+    //box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    //font-size: 15px;
+    //margin: 50px;
+  //}
+
+  //.btn-outline-primary:hover {
+    //color: black;
+    //background-color: white;
+  //}
 }
 
 .swish-info {

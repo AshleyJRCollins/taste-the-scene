@@ -1,14 +1,28 @@
 <div class="banner" style="background-image: url(https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699532/Gingham_pvum9m.jpg)">
-  <!--<div class="title">-->
     <img class="tts" src="https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699938/TTS_logo_hrpq2w.png">
-    <!--<h1>TASTE</h1>
-    <h1>THE</h1>
-    <h1>SCENE</h1>
-      <p>The ultimate film night in Stockholm</p>
-      <p>Experience a film with all your senses</p>-->
+  <div class="options">
+    <a class="btn btn-link" href="#about" role="button">ABOUT & BOOKINGS</a>
+    <a class="btn btn-link" href="#press" role="button">PRESS</a>
   </div>
 </div>
-<div class="film-choice" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://filmdaily.co/wp-content/uploads/2018/05/Amelie-Ten-Moments.jpeg)">
+
+<div class="about" id="about">
+  <h1>ABOUT US</h1>
+    <p class='text-left'>TASTE THE SCENE is a culinary experience like no other. Done in collaberation with MD, you can...</p>
+  <h1>NEXT EVENT</h1>
+    <p>Our next event is: Amelie at The Sparrow Hotel</p>
+    <p>If you would like to join us, book your tickets below:</p>
+      <%=link_to "BOOK TICKETS", new_order_path, class: "btn btn-link" %>
+</div>
+
+<div class="press" id="press" style="background-image: url(https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699532/Gingham_pvum9m.jpg)">
+  <h1>PRESS</h1>
+    <p>If you would like to get in contact, please send an email to this address:</p>
+      <a id="email" href="mailto:info@tastethescene.com">info@tastethescene.com</a>
+    <p id="insta">Also, you can follow us on <a target="_blank" href="https://www.instagram.com/tastethescene/">Instagram</a></p>
+</div>
+
+<!--<div class="film-choice" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://filmdaily.co/wp-content/uploads/2018/05/Amelie-Ten-Moments.jpeg)">
   <div class="film-title">
     <h2>Film of the week:</h2>
     <h1>Amelie från Montmartre</h1>
@@ -43,4 +57,4 @@
         <p>Currently we can only deliver in central Stockholm (inside the walls)</p>
         <p>The cost of watching or steaming the film is not included</p>
     </div>
-</div>
+</div>-->
