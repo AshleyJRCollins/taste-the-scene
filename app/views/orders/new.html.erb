@@ -1,6 +1,6 @@
-<div class="booking-form">
+<div class="booking-form" style="background-image: url(https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699532/Gingham_pvum9m.jpg)">
   <div class="booking-title">
-    <h1>Booking Form</h1>
+    <h1>ORDER YOUR TICKETS HERE</h1>
   </div>
   <div class="swish-info">
       <p>Once you have requested the boxes below, you will get a text back within 24 hours so you can Swish payment and add any further information if needed</p>
@@ -8,16 +8,16 @@
     <div class="bookings">
       <%= simple_form_for(@order) do |f| %>
       <%= f.input :name %>
-      <%= f.input :option %>
+      <%#= f.input :option %>
       <%= f.input :number_of_boxes %>
       <%= f.input :address %>
       <%= f.input :telephone_number %>
       <%= f.input :email %>
       <%= f.input :dietary_requirements, as: :text %>
-      <%= f.submit "Order Boxes", class: "btn btn-primary btn-lg" %>
+      <%= f.submit "ORDER TICKETS", class: "btn btn-link" %>
       <% end %>
     </div>
     <div class="back-button">
-      <%=link_to "Back to the... home page", root_path, class: "btn btn-outline-primary btn-lg" %>
+      <%=link_to "BACK", root_path, class: "btn btn-link" %>
     </div>
 </div>

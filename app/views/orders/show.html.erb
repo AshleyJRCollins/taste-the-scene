@@ -1,17 +1,17 @@
-<div class="confirmation">
+<div class="confirmation" style="background-image: url(https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699532/Gingham_pvum9m.jpg)">
   <div class="confirmation-title">
     <h1><%= @order.name %>, this is a confirmation of your order</h1>
-      <p>Your request for boxes has been received</p>
+      <p>Your request has been received</p>
   </div>
-    <div class="gif">
+    <!--<div class="gif">
       <iframe src="https://giphy.com/embed/aDYXQy3W8XFG8" width="480" height="364" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/keanu-reeves-point-break-johnny-utah-aDYXQy3W8XFG8">via GIPHY</a></p>
-    </div>
+    </div>-->
       <div class="confirmation-information">
-        <h2>Next step...Show me the money!</h2>
+        <h2>Next step</h2>
           <p>You will receive a text within 24 hours so you can Swish payment and add any further information if needed</p>
-          <p>For now, <em>hasta la vista, baby</em></p>
+          <!--<p>For now, <em>hasta la vista, baby</em></p>-->
       </div>
     <div class="confirmaion-button">
-      <h3><%=link_to "Back to the... home page", root_path, class: "btn btn-outline-primary btn-lg" %></h3>
+      <h3><%=link_to "Back to the home page", root_path, class: "btn btn-link" %></h3>
     </div>
 </div>
