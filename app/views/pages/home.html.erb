@@ -1,21 +1,37 @@
 <div class="banner" style="background-image: url(https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699532/Gingham_pvum9m.jpg)">
     <img class="tts" src="https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699938/TTS_logo_hrpq2w.png">
-  <div class="options">
-    <a class="btn btn-link" href="#about" role="button">ABOUT & BOOKINGS</a>
-    <a class="btn btn-link" href="#press" role="button">PRESS</a>
+  <div class="container"> <!--was options -->
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <a class="btn btn-link" href="#about" role="button">ABOUT</a>
+      </div>
+      <div class="col-12 col-lg-4">
+        <a class="btn btn-link" href="#events" role="button">EVENTS</a>
+      </div>
+      <div class="col-12 col-lg-4">
+        <a class="btn btn-link" href="#press" role="button">PRESS</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="about" id="about">
-  <h1>ABOUT US</h1>
-    <p class='text-left'>TASTE THE SCENE is a culinary experience like no other. Done in collaberation with MD, you can...</p>
-  <h1>NEXT EVENT</h1>
-    <p>Our next event is: Amelie at The Sparrow Hotel</p>
-    <p>If you would like to join us, book your tickets below:</p>
-      <%=link_to "BOOK TICKETS", new_order_path, class: "btn btn-link" %>
+  <h1>ABOUT</h1>
+    <h5 class='text-justify'>Taste the Scene is a cinematic experience that challenges your senses by inviting you to taste, smell and touch scenes of a movie.</h5>
+    <!--<h5 class='text-justify'>Done in collaboration with Mathias Dahlgren, the four times Swedish Chef of the Year and winner of Bocuse d'Or provides the cuisine to take you on a culinary experience like no other.</h5>-->
+    <h5 class='text-justify' id="md">The experience includes a cuisine box that contains several servings created and crafted by <a target="_blank" href="https://mdghs.se/">Mathias Dahlgren Restaurant</a>. During the movie you will eat or drink the servings at specific scenes,
+    creating a cinematic journey for all your senses.</h5>
+    <h5 class='text-justify'>Our movies are carefully selected so that the most innovative servings can be enjoyed alongside the most entertaining and revered films.</h5>
+    <h5 class='text-justify'>This is a gastronomic experience but does not constitute a full meal.</h5>
 </div>
+  <div class="events" id="events" style="background-image: url(https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699532/Gingham_pvum9m.jpg)">
+    <h1>EVENTS</h1>
+      <h5 class='text-justify' id="sparrow">Our next event will be in September at <a target="_blank" href="https://www.thesparrow.se/en">The Sparrow Hotel</a> in Stockholm</h5>
+      <h5>If you would like to join us, book your tickets below:</h5>
+        <!--<%=link_to "BOOK TICKETS", new_order_path, class: "btn btn-link" %>-->
+  </div>
 
-<div class="press" id="press" style="background-image: url(https://res.cloudinary.com/dlsa2pdia/image/upload/v1624699532/Gingham_pvum9m.jpg)">
+<div class="press" id="press">
   <h1>PRESS</h1>
     <p>If you would like to get in contact, please send an email to this address:</p>
       <a id="email" href="mailto:info@tastethescene.com">info@tastethescene.com</a>

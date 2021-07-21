@@ -16,20 +16,22 @@
 .footer-links a {
   color: white;
   text-decoration: none;
-  font-size: 150%;
-  padding: 0px 10px;
+  font-size: 4vh;
 }
 
 .footer-links a:hover {
-  opacity: 0.8;
+  //opacity: 0.8;
+  color: pink;
 }
 
 .email a {
   margin: 0px;
   color: white;
   text-decoration: none;
+  font-size: 2vh;
 }
 
 .email a:hover {
-    opacity: 0.8;
+    //opacity: 0.8;
+    color: pink;
 }
