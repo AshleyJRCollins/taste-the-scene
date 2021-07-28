@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TasteTheScene</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Taste the Scene</title>
+      <%= csrf_meta_tags %>
+      <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-      <style>
-        html {
-          scroll-behavior: smooth;
-        }
-      </style>
-  </head>
-  <body>
-    <%= yield %>
-    <div class="footer"><%= render "shared/footer" %></div>
-  </body>
+        <meta name="description" content="Taste the Scene is a cinematic experience that challenges your senses.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+          <%= favicon_link_tag 'favicon.ico' %>
+
+            <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+            <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+              <style>
+                html {
+                  scroll-behavior: smooth;
+                  }
+              </style>
+
+    </head>
+    <body>
+      <%= yield %>
+        <div class="footer"><%= render "shared/footer" %></div>
+    </body>
 </html>
