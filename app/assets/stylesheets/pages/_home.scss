@@ -12,13 +12,20 @@
 }
 
 .tts {
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 
 @media only screen and (max-width: 768px){
   .tts {
     width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1440px){
+  .tts {
+    width: 60%;
     height: auto;
   }
 }
