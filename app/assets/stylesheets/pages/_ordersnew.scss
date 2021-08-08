@@ -16,6 +16,12 @@
   }
 }
 
+@media only screen and (max-width: 576px){
+  .confirmation {
+    padding: 60px 30px 30px 30px;
+  }
+}
+
 .confirmation-title {
   text-align: center;
 }
