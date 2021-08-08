@@ -1,42 +1,22 @@
-.booking-form {
-  color: black;
+.confirmation {
+  width: 100%;
+  min-height: 90vh;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-
-.booking-title {
-  padding: 20px 0px 0px 50px;
-
-  h1 {
-    font-size: 500%;
-  }
-}
-
-.bookings {
-  padding: 0px 50px 0px 50px;
-}
-
-.back-button {
-
-  .btn-link {
-  color: black;
-  font-size: 2vw;
-  padding: 20px 50px;
-  }
-
-  .btn-link:hover {
-    color: white;
-    text-decoration: none;
-  }
-}
-
-.swish-info {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  resize: vertical;
-  overflow: auto;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 0px 50px;
+  resize: vertical;
+  overflow: auto;
+  align-items: center;
+  padding: 0px 30px;
+
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}
+
+.confirmation-title {
+  text-align: center;
 }
