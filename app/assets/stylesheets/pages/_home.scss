@@ -109,6 +109,12 @@
   padding: 0px 40px;
 }
 
+@media only screen and (max-width: 576px){
+  #mc_embed_signup {
+    width: 150%;
+  }
+}
+
 #mc-embedded-subscribe-form.validate {
   padding: 0px;
 }
