@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  //resize: vertical;
   overflow: auto;
   align-items: center;
   padding: 0px 30px;
@@ -23,5 +22,33 @@
 }
 
 .confirmation-title {
-  text-align: center;
+  text-align: left;
+  width: 50%;
 }
+
+.confirmation-back-button {
+  text-align: left;
+  width: 50%;
+  .btn-link {
+    color: black;
+    font-size: 32px;
+    padding: 0px !important;
+    margin-left: -2px;
+  }
+  .btn-link:hover {
+    color: #edc2ed;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .confirmation-title {
+    width: 90%;
+  }
+  .confirmation-back-button {
+    width: 90%;
+  }
+}
+
+
+
