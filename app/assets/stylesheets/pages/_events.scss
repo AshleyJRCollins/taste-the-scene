@@ -33,8 +33,16 @@
 @media only screen and (max-width: 768px){
   .about-events {
     width: 90%;
-    padding: 10px 10px 40px 10px;
+    padding: 10px;
   }
+}
+
+#subtitles {
+  font-weight: 900;
+}
+
+#movie {
+  margin-bottom: 16px;
 }
 
 .link a {
