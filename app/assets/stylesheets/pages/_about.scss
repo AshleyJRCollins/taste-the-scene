@@ -59,11 +59,14 @@
 }
 
 #mc-embedded-subscribe.button {
+  color: #D4EBD9 !important;
   background-color: black !important;
   margin-bottom: 30px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
 }
 
 #mc-embedded-subscribe.button:hover {
+  color: black !important;
   background-color: #edc2ed !important;
 }
 
