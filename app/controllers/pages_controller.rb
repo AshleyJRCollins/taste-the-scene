@@ -12,4 +12,7 @@ class PagesController < ApplicationController
   def confirmation
   end
 
+  def delivery
+  end
+
 end

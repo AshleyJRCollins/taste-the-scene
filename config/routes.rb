@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'events', to: 'pages#events'
   get 'confirmation', to: 'pages#confirmation'
+  get 'delivery', to: 'pages#delivery'
   resources :orders, only: %i[index show new create destroy]
 end
