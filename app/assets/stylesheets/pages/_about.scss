@@ -59,21 +59,21 @@
 }
 
 #mc-embedded-subscribe.button {
-  color: #D4EBD9 !important;
-  background-color: black !important;
+  color: black !important;
+  background-color: #edc2ed !important;
   margin-bottom: 30px !important;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  border: 1px solid black !important;
 }
 
 #mc-embedded-subscribe.button:hover {
-  color: black !important;
-  background-color: #edc2ed !important;
+  color: #edc2ed !important;
+  background-color: black !important;
 }
 
 #ticket-button {
-    font-size: 60px;
-    margin-left: -4px;
-  }
+  font-size: 60px;
+  margin-left: -4px;
+}
 
 @media only screen and (max-width: 768px) {
   #ticket-button {
