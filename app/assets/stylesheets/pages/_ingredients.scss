@@ -1,0 +1,23 @@
+@media only screen and (max-width: 414px) {
+#smaller-title-2 {
+  font-size: 40px;
+  }
+}
+
+.btn-link-ingredients {
+    color: black;
+    font-size: 32px;
+    padding: 30px 0px 10px 0px;
+    margin-left: -2px;
+  }
+
+  .btn-link-ingredients:hover {
+    color: #edc2ed;
+    text-decoration: none;
+  }
+
+@media only screen and (max-width: 320px) {
+  .btn-link-ingredients {
+    padding: 30px 0px 0px 0px;
+  }
+}
