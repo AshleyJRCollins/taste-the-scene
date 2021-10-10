@@ -15,4 +15,10 @@ class PagesController < ApplicationController
   def delivery
   end
 
+  def ingredients
+  end
+
+  def drink_pairing
+  end
+
 end
