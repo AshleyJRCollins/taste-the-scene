@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: right;
   background: transparent;
   position: absolute;
   top: 0;
@@ -11,11 +11,17 @@
   flex-grow: 0;
 }
 
-#navbarDropdown {
-  width: 50px;
-  border: solid 1px black;
-  border-radius: 50%;
-  box-shadow: 1px 1px 2px black;
+.fas {
+  font-size: 50px;
+  color: black;
+  padding: 10px 20px 0px 0px;
+}
+
+@media only screen and (max-width: 414px) {
+  .fas {
+    font-size: 30px;
+    padding: 10px 0px 0px 0px;
+  }
 }
 
 .dropdown-menu {
@@ -32,5 +38,7 @@
   color: #edc2ed;
 }
 
-
+.nav-item.dropdown::marker {
+  color: transparent;
+}
 
