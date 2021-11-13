@@ -16,6 +16,7 @@
   .btn-link:hover {
     color: #edc2ed;
     text-decoration: none;
+    transition: color 0.3s ease;
   }
   @media only screen and (max-width: 768px) {
     .btn-link {
@@ -40,7 +41,7 @@
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
   .tts {
     width: 100%;
     height: auto;
