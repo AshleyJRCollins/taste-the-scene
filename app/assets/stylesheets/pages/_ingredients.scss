@@ -20,6 +20,7 @@
   .btn-link-ingredients:hover {
     color: #edc2ed;
     text-decoration: none;
+    transition: color 0.3s ease;
   }
 
 @media only screen and (max-width: 320px) {

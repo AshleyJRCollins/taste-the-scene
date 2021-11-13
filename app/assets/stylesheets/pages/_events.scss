@@ -33,6 +33,7 @@
   .btn-link:hover {
     color: #edc2ed;
     text-decoration: none;
+    transition: color 0.3s ease;
   }
 }
 
@@ -59,6 +60,7 @@
 
 .link a:hover {
   color: #edc2ed;
+  transition: color 0.3s ease;
 }
 
 .box-pic {
