@@ -4,12 +4,36 @@
   }
 }
 
+@media only screen and (max-width: 280px) {
+#smaller-title-3 {
+  font-size: 30px;
+  }
+}
+
 #beer-title {
   padding-top: 20px;
 }
 
+@media only screen and (max-width: 280px) {
+#beer-title {
+  font-size: 25px;
+  }
+  a {
+    font-size: 20px;
+  }
+}
+
 .alcohol-title {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 280px) {
+.alcohol-title {
+  font-size: 25px;
+  }
+  a {
+    font-size: 20px;
+  }
 }
 
 .btn-link-drinks {
@@ -30,3 +54,9 @@
   }
 }
 
+@media only screen and (max-width: 280px) {
+  .btn-link-drinks {
+    padding: 30px 0px 0px 0px;
+    font-size: 25px;
+  }
+}
