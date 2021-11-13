@@ -4,6 +4,12 @@
   }
 }
 
+@media only screen and (max-width: 280px) {
+#smaller-title {
+  font-size: 40px;
+  }
+}
+
 .btn-secondary {
   background-color: #edc2ed;
   border: 1px solid black;
