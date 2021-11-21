@@ -12,7 +12,7 @@
 
 .navbar .navbar-brand img:hover {
   opacity: 0.5;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 
 .navbar-toggler {
@@ -51,6 +51,7 @@
   }
   .navbar .nav-link:hover {
     color: #D4EBD9 !important;
+    transition: color 0.3s ease;
   }
 }
 
@@ -65,86 +66,3 @@
     width: 50px;
   }
 }
-
-/*.navbar-lewagon {
-  justify-content: right;
-  background: transparent;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.dropdown-menu {
-  border: 1px solid black;
-  background-color: black;
-  padding: 20px 0px;
-  h5 {
-    margin-bottom: 0px !important;
-  }
-}
-
-.dropdown-item {
-  color: #D4EBD9;
-}
-
-.dropdown-item:hover {
-  background-color: black;
-  color: #edc2ed;
-}
-
-.nav-item.dropdown::marker {
-  color: transparent;
-}
-
-.fas {
-  font-size: 50px;
-  color: black;
-  padding: 10px 20px 0px 0px;
-}
-
-@media only screen and (max-width: 414px) {
-  .fas {
-    font-size: 40px;
-    padding: 10px 0px 0px 394px;
-  }
-}
-
-@media only screen and (max-width: 411px) {
-  .fas {
-    font-size: 40px;
-    padding: 10px 0px 0px 391px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .fas {
-    font-size: 40px;
-    padding: 10px 0px 0px 355px;
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  .fas {
-    font-size: 40px;
-    padding: 10px 0px 0px 340px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .fas {
-    font-size: 40px;
-    padding: 10px 0px 0px 300px;
-  }
-}
-
-@media only screen and (max-width: 280px) {
-  .fas {
-    font-size: 40px;
-    padding: 10px 0px 0px 260px;
-  }
-}*/
