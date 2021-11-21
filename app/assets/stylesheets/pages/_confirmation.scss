@@ -26,37 +26,14 @@
   width: 50%;
 }
 
-.confirmation-back-button {
-  text-align: left;
-  width: 50%;
-  .btn-link {
-    color: black;
-    font-size: 32px;
-    padding: 0px !important;
-    margin-left: -2px;
-  }
-  .btn-link:hover {
-    color: #edc2ed;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-}
-
 @media only screen and (max-width: 768px){
   .confirmation-title {
     width: 90%;
-  }
-  .confirmation-back-button {
-    width: 90%;
-    padding: 15px 0px 10px 0px;
   }
 }
 
 @media only screen and (max-width: 280px){
   .confirmation-title h1 {
     font-size: 33px;
-  }
-  .confirmation-back-button .btn-link {
-    font-size: 25px;
   }
 }
