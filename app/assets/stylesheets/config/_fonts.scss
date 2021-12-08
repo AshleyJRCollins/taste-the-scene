@@ -1,5 +1,5 @@
 // Import Google fonts
-@import url('//fonts.cdnfonts.com/css/cotham-sans');
+@import url('https://fonts.cdnfonts.com/css/cotham-sans');
 
 //'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
 
@@ -10,15 +10,15 @@
 //@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 
 // Define fonts for body and headers
-$body-font: "cotham sans";   //"Fjalla One";
-$headers-font: "cotham sans";       //"Bebas Neue";
+$body-font: "Cotham Sans";   //"Fjalla One";
+$headers-font: "Cotham Sans";       //"Bebas Neue";
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+ @font-face {
+   font-family: "Cotham Sans";
+   src: font-url('FontFile.eot');
+   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+        font-url('FontFile.woff') format('woff'),
+        font-url('FontFile.ttf') format('truetype')
+ }
+ $my-font: "Cotham Sans";
