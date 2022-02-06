@@ -62,6 +62,10 @@
   transition: color 0.3s ease;
 }
 
+#mce-EMAIL.email {
+  margin-top: 40px !important;
+}
+
 #mc-embedded-subscribe-form.validate {
   padding: 0px;
 }
@@ -69,7 +73,7 @@
 #mc-embedded-subscribe.button {
   color: black !important;
   background-color: #edc2ed !important;
-  margin-bottom: 30px !important;
+  margin: 40px 0px 30px 0px !important;
   border: 1px solid black !important;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.2) !important;
 }
